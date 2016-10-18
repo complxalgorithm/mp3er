@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+audio {
+  width: 100%;
+}
+
+#firstFeature {
+  background-image: url(http://scienceblogs.com/startswithabang/files/2013/02/2xcluster.jpg);
+  background-size: cover;
+}
+
+#secondFeature {
+  background-image: url(http://thumbs.media.smithsonianmag.com//filer/67/61/6761d4b0-aadf-40ec-a8ac-11f1da9b2589/illustris_box_dmdens_gasvel.png__800x450_q85_crop_upscale.jpg);
+  background-size: cover;
+}
+
+.white {
+  color: white;
+}
+
+.page-header {
+  color: #2AA5B8;
+  font-family: 'Anton', sans-serif;
+}
+
+.panel-primary .panel-heading {
+  background-color: orange;
+}
+
+.panel-success .panel-heading {
+  background-color: turquoise;
+  color: black;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,6199c7+30,3a84c3+43,419ad6+55,4bb8f0+68,3a8bc2+84,26558b+100 */
+  background: #cedbe9; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cedbe9 0%, #aac5de 17%, #6199c7 30%, #3a84c3 43%, #419ad6 55%, #4bb8f0 68%, #3a8bc2 84%, #26558b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #cedbe9 0%,#aac5de 17%,#6199c7 30%,#3a84c3 43%,#419ad6 55%,#4bb8f0 68%,#3a8bc2 84%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #cedbe9 0%,#aac5de 17%,#6199c7 30%,#3a84c3 43%,#419ad6 55%,#4bb8f0 68%,#3a8bc2 84%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+}
+
+.table {
+  background-color: #05D9FA;
+}
+
+.col-sm-9 {
+  background-color: #ADE5ED;
+}
+
+td {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.col-sm-9 tbody tr:hover {
+  background-color: blue;
+  color: white;
+}
+
+.table thead {
+  font-style: italic;
+}
+
+.alert-warning {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.button-gif {
+  width: 40px;
+  height: 25px;
+}

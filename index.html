@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mp3er</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="text-center">Mp3er</h1>
+    </header>
+    <div class="container">
+      <section class="panel panel-primary">
+        <header class="panel-heading">
+          <h2 class="panel-title text-center">Featured</h2>
+        </header>
+        <section class="panel-body">
+          <div class="row">
+            <div class="col-sm-6" id="firstFeature">
+              <h3 class="white">Sound Helix</h3>
+              <h4 class="white"><em>Someone</em></h4>
+              <h5 class="white">Lightspeed</h5>
+              <audio controls src="http://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+            </div>
+            <div class="col-sm-6" id="secondFeature">
+              <h3 class="white">Sonic</h3>
+              <h4 class="white"><em>Somebody</em></h4>
+              <h5 class="white">Word</h5>
+              <audio controls src="http://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"></audio>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Song list -->
+      <section class="panel panel-success">
+        <header class="panel-heading">
+          <h2 class="panel-title">Song List</h2>
+        </header>
+        <section class="panel-body">
+          <div class="row">
+            <div class="col-sm-9">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Album</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Colourblind</td>
+                    <td>Hands Like Houses</td>
+                    <td>Dissonants</td>
+                    <td>
+                      <button class="btn btn-sm btn-success" onclick="playAudio(this, 1)">Play</button>
+                      <button class="btn btn-sm btn-danger" onclick="pauseAudio(this, 1)">Pause</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Love Yourself</td>
+                    <td>Justin Bieber</td>
+                    <td>Purpose</td>
+                    <td>
+                      <button class="btn btn-sm btn-success" onclick="playAudio(this, 2)">Play</button>
+                      <button class="btn btn-sm btn-danger" onclick="pauseAudio(this, 2)">Pause</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Twin Size Mattress</td>
+                    <td>The Front Bottoms</td>
+                    <td>Talon of the Hawk</td>
+                    <td>
+                      <button class="btn btn-sm btn-success" onclick="playAudio(this, 3)">Play</button>
+                      <button class="btn btn-sm btn-danger" onclick="pauseAudio(this, 3)">Pause</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Ize of the World</td>
+                    <td>The Strokes</td>
+                    <td>First Impressions of Earth</td>
+                    <td>
+                      <button class="btn btn-sm btn-success" onclick="playAudio(this, 4)">Play</button>
+                      <button class="btn btn-sm btn-danger" onclick="pauseAudio(this, 4)">Pause</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-3">
+              <div class="alert alert-warning">
+                <h4>Ad 1</h4>
+                <p>Some annoying text</p>
+              </div>
+              <div class="alert alert-warning">
+                <h4>Ad 2</h4>
+                <p>Some more annoying text</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <script src="./src/js/script.js"></script>
+    </div>
+  </body>
+</html>
